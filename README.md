@@ -1,6 +1,6 @@
 Description
 ===========
-VMware ESXi VMs snapshots peridically creating and removing for planning updates
+Automatization of VMware ESXi VMs snapshots peridically creating and removing for planning updates
 
 
 Requirements
@@ -31,7 +31,9 @@ sudo chmod +x *.py *.sh
 
 3) Change example configuration file pyvmsnap.conf: login, password, IP address of vcenter;
 
-4) Further you have options: run scripts from host or run scripts from docker container.
+4) Change example configuration file vms.conf: names of VMs for which snapshots will be created and removed;
+
+5) Further you have options: run scripts from host or run scripts from docker container.
 
 If you want to run scripts from host:
 
