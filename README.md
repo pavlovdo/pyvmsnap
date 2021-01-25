@@ -1,6 +1,6 @@
 Description
 ===========
-VMware ESXi VMs snapshots peridically creating and removing for your planning updates.
+VMware ESXi VMs snapshots peridically creating and removing for planning updates
 
 
 Requirements
