@@ -44,7 +44,7 @@ B) Install required python modules:
 pip3 install -r requirements.txt
 ```
 
-C) Plan creating and removing snapshots for your ESXi VMs Create and create cron jobs its:
+C) Plan creating and removing snapshots for your ESXi VMs and create cron jobs:
 ```
 echo "00 03 * * 6 /usr/local/orbit/pyvmsnap/pyvmsnap.py create > /usr/local/orbit/pyvmsnap/data/output" > /tmp/crontab && \
 echo "00 03 * * 3 /usr/local/orbit/pyvmsnap/pyvmsnap.py remove > /usr/local/orbit/pyvmsnap/data/output" >> /tmp/crontab && \
