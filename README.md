@@ -5,7 +5,6 @@ Automatization of VMware ESXi VMs snapshots peridically creating and removing fo
 
 Requirements
 ============
-
 1) python >= 3.6
 
 2) python module pyvmomi: Python SDK for the VMware vSphere API
@@ -55,7 +54,7 @@ If you want to run scripts from docker container:
 
 A) Run build.sh:
 ```
-cd /usr/local/orbit/pypymcmon
+cd /usr/local/orbit/pyvmsnap
 ./build.sh
 ```
 
